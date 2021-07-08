@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Arayuz.son.FXMLDocumentController">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="590.0" style="-fx-background-color: #fab1a0;">
+         <children>
+            <Button fx:id="genelbilgilendirme" layoutX="26.0" layoutY="131.0" mnemonicParsing="false" onAction="#genelbilgilendirme" prefHeight="174.0" prefWidth="201.0" style="-fx-background-color: #ff7675;" text="Genel Bilgilendirme">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="yonetici" layoutX="367.0" layoutY="131.0" mnemonicParsing="false" onAction="#yonetici" prefHeight="174.0" prefWidth="201.0" style="-fx-background-color: #ff7675;" text="Yönetici">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="veli" layoutX="26.0" layoutY="316.0" mnemonicParsing="false" onAction="#veli" prefHeight="174.0" prefWidth="201.0" style="-fx-background-color: #ff7675;" text="Veli">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="ogretmen" layoutX="367.0" layoutY="316.0" mnemonicParsing="false" onAction="#ogretmen" prefHeight="174.0" prefWidth="201.0" style="-fx-background-color: #ff7675;" text="Öğretmen">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="148.0" layoutY="70.0" prefHeight="70.0" prefWidth="309.0" text="   GÖKKUŞAĞI KREŞİ">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="99.0" layoutX="78.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/kisspng-preschool-teacher-pre-school-kindergarten-cartoon-5af6ea34eaf4f9.6313588315261312529624.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="71.0" layoutX="436.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/team.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="70.0" layoutX="441.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/öğretmen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="70.0" layoutX="95.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/newspaper.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="120.0" fitWidth="180.0" layoutX="206.0" layoutY="-15.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../image/rainbow.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

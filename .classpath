@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/run1007369753/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1059481876/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1080166840/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1095998047/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1110967506/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1113175115/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1179489586/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1221944799/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1285837879/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1311538329/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1322883856/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1394539206/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1545566930/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1595485722/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1598611266/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1689214257/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1706668187/son.jar"/>
+	<classpathentry kind="lib" path="dist/run1733441481/son.jar"/>
+	<classpathentry kind="lib" path="dist/run183183679/son.jar"/>
+	<classpathentry kind="lib" path="dist/run2085360076/son.jar"/>
+	<classpathentry kind="lib" path="dist/run298776615/son.jar"/>
+	<classpathentry kind="lib" path="dist/run3160925/son.jar"/>
+	<classpathentry kind="lib" path="dist/run324603884/son.jar"/>
+	<classpathentry kind="lib" path="dist/run450060592/son.jar"/>
+	<classpathentry kind="lib" path="dist/run718748655/son.jar"/>
+	<classpathentry kind="lib" path="dist/run741345580/son.jar"/>
+	<classpathentry kind="lib" path="dist/run881709916/son.jar"/>
+	<classpathentry kind="lib" path="dist/run935279173/son.jar"/>
+	<classpathentry kind="lib" path="dist/run998075190/son.jar"/>
+	<classpathentry kind="lib" path="dist/son.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

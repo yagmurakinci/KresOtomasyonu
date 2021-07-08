@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Arayuz.son.GenelBilgilendirmeController">
+   <children>
+      <AnchorPane layoutX="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="590.0" style="-fx-background-color: #81ecec;">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="362.0" prefHeight="77.0" prefWidth="547.0" style="-fx-background-color: #00cec9;" text="Etkinliklerimiz : Paten, Yüzme,  Sinema,  Müze,  Lunapark,  Piknik" wrapText="true">
+               <font>
+                  <Font name="Bookman Old Style" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="29.0" layoutY="268.0" prefHeight="77.0" prefWidth="547.0" style="-fx-background-color: #00cec9;" text="Okulun Aylık Fiyatı: 300 TL                                   Okulun Yıllık İNDİRİMLİ Fiyatı: 2500 TL" wrapText="true">
+               <font>
+                  <Font name="Bookman Old Style" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="29.0" layoutY="135.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="120.0" prefWidth="547.0" style="-fx-background-color: #00cec9;" text="Okulun Adı: GÖKKUŞAĞI KREŞİ                   Okulun Adresi: Gökkuşağı caddesi, 12.sokak, Malatya                                                            Telefon numarası: 0545 328 9313" wrapText="true">
+               <font>
+                  <Font name="Bookman Old Style" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="120.0" fitWidth="180.0" layoutX="205.0" layoutY="-15.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../image/rainbow.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="148.0" layoutY="76.0" prefHeight="36.0" prefWidth="273.0" text="   GÖKKUŞAĞI KREŞİ">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="anasayfa" layoutX="37.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#anasayfayadon" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: #00cec9;" text="Ana Sayfaya Dön">
+               <font>
+                  <Font name="Bookman Old Style" size="11.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="17.0" fitWidth="18.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/return.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

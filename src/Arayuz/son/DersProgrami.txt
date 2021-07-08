@@ -1,0 +1,7 @@
+-----------------D E R S  P R O G R A M I---------------
+
+-Pazartesi-         -Sali-           -Carsamba-        -Persembe-         -Cuma-
+Boyama              Ingilizce        Zeka Oyunlari     Gorsel Sanatlar    Tiyatro
+Oyun ve Hareket     Muzik            Tiyatro           Ingilizce          Boyama
+Yemek Saati         Yemek Saati      Yemek Saati       Yemek Saati        Yemek Saati
+Satranc             Hamur Oyunu      Oyun ve Hareket   Muzik              Satranc

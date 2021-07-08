@@ -1,0 +1,1 @@
+Son Kaydedilen Ogrencinin Adi:yeni     Son Kaydedilen Ogrencinin Soyadi:kayit     Son Kaydedilen Ogrencinin Cinsiyeti:kiz     Son Kaydedilen Ogrencinin Dogum Yili:2020

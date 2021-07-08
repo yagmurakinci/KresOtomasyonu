@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="590.0" style="-fx-background-color: #ffeaa7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Arayuz.son.BeslenmeRaporuController">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="590.0" style="-fx-background-color: #ffeaa7;">
+         <children>
+            <ImageView fitHeight="487.0" fitWidth="562.0" layoutX="43.0" layoutY="26.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/kisspng-food-pyramid-healthy-diet-healthy-eating-pyramid-n-5b28db69eb5983.433469241529404265964.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="152.0" layoutY="76.0" prefHeight="40.0" prefWidth="270.0" text="    GÖKKUŞAĞI KREŞİ">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="33.0" fitWidth="40.0" layoutX="334.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/pngkey.com-pastor-png-3417073.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="413.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/check-mark-circle-line.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="52.0" layoutX="463.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/close-round-line.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="ekle" layoutX="396.0" layoutY="317.0" mnemonicParsing="false" onAction="#ekle" prefHeight="40.0" prefWidth="135.0" style="-fx-background-color: #fdcb6e;" text="Ekle">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="15.0" />
+               </font></Button>
+            <TextField fx:id="adSoyad_gir" layoutX="373.0" layoutY="145.0" onAction="#adSoyad_gir" prefHeight="33.0" prefWidth="180.0" promptText="Öğrencinin Adını Giriniz.." />
+            <Button fx:id="sil" layoutX="396.0" layoutY="371.0" mnemonicParsing="false" onAction="#sil" prefHeight="40.0" prefWidth="135.0" style="-fx-background-color: #fdcb6e;" text="Sil">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="17.0" />
+               </font></Button>
+            <ImageView fitHeight="120.0" fitWidth="180.0" layoutX="198.0" layoutY="-14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../image/rainbow.png" />
+               </image>
+            </ImageView>
+            <ListView fx:id="tablo" layoutX="43.0" layoutY="123.0" prefHeight="354.0" prefWidth="245.0" />
+            <ComboBox fx:id="yemedurumu" layoutX="374.0" layoutY="275.0" prefHeight="25.0" prefWidth="180.0" promptText="Yeme Durumu" style="-fx-background-color: #fdcb6e;" />
+            <Button fx:id="guncelle2" layoutX="396.0" layoutY="420.0" mnemonicParsing="false" onAction="#Guncelle" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #fdcb6e;" text="Listeyi Güncelle">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="once" layoutX="30.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#oncekinedon" style="-fx-background-color: #fdcb6e;" text="Önceki Sayfaya Dön">
+               <font>
+                  <Font name="Bookman Old Style" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="17.0" fitWidth="23.0" layoutX="6.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/return.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tarih_gir1" layoutX="374.0" layoutY="188.0" onAction="#beslenmeTarih" prefHeight="33.0" prefWidth="180.0" promptText="Tarih Giriniz.." />
+            <ImageView fitHeight="33.0" fitWidth="40.0" layoutX="334.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/calendar-line.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
